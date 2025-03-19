@@ -1,3 +1,4 @@
+import React from "react";
 import { Tabs } from "expo-router";
 import { ImageBackground, Image, Text, View } from "react-native";
 

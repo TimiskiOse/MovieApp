@@ -6,6 +6,10 @@ import save from "@/assets/icons/save.png";
 import star from "@/assets/icons/star.png";
 import play from "@/assets/icons/play.png";
 import arrow from "@/assets/icons/arrow.png";
+import email from "@/assets/icons/email.png";
+import lock from "../assets/icons/lock.png";
+import google from "../assets/icons/google.png";
+
 
 export const icons = {
   home,
@@ -16,4 +20,7 @@ export const icons = {
   star,
   play,
   arrow,
+  email,
+  lock,
+  google
 };

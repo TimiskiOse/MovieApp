@@ -18,6 +18,7 @@ import { images } from "@/constants/images";
 import SearchBar from "@/components/SearchBar";
 import MovieCard from "@/components/MovieCard";
 import TrendingCard from "@/components/TrendingCard";
+import React from "react";
 
 const Index = () => {
   const router = useRouter();

@@ -1,3 +1,4 @@
+
 interface Movie {
   id: number;
   title: string;
@@ -75,3 +76,31 @@ interface TrendingCardProps {
   movie: TrendingMovie;
   index: number;
 }
+
+interface InputFieldProps extends TextInputProps {
+  label: string;
+  value: string;
+  placeholder: string;
+  textContentType?: any;
+  onChangeText: (value: string) => void;
+  icon?: any;
+  secureTextEntry?: boolean;
+  labelStyle?: string;
+  containerStyle?: string;
+  inputStyle?: string;
+  iconStyle?: string;
+  className?: string;
+}
+
+
+interface ButtonProps extends TouchableOpacityProps {
+  onPress?: (event: GestureResponderEvent) => void;
+  title: string;
+  bgVariant?: "primary" | "secondary" | "danger" | "success" | "outline";
+  textVariant?: "default" | "primary" | "secondary" | "danger" | "success";
+  IconLeft?: React.ComponentType<any>;
+  IconRight?: React.ComponentType<any>;
+  className?: string;
+  [key: string]: any;
+}
+
